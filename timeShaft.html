@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, initial-scale=1.0, width=device-width"/>
+		<title>timeShift</title>
+		<style type="text/css">
+			.row_line{
+				list-style-type: none;
+				border-top: 1px solid #606060;
+				position: relative;
+				max-width: 800px;
+				padding: 0px;
+				margin: 20px;
+				top: 20px;ss
+			}
+
+			.row_line .bodyP{
+				float: left;
+				position: relative;
+				width:25%;
+				padding-top: 10px;
+				text-align: center;
+			}
+
+			.row_line li b:before{
+				content: '';
+				position: relative;
+				border: 5px solid #000;
+			    border-radius: 50%;
+			    top: -5px;
+			    left: 47%;
+			}
+
+			.row_line .startImg{
+				position: absolute;
+				top: -0.4rem;
+				left: -0.3rem;
+			}
+
+			.row_line .bodyImg{
+				position: absolute;
+				top: -0.4em;
+				left:46%;
+			}
+
+			.daySign{
+				position:relative;
+				border: 8px solid #46C4F7;
+				border-radius:50%;
+				background-color: #46C4F7;
+				color: #FFF;
+				left: -1.2em;
+			}
+
+			.col_container{
+				border-left: 1px dashed #606060;
+				margin: 7rem 2rem 2rem 2.5rem;
+			}
+
+			.col_container .arrow{
+				position: relative;
+				float: right;
+				top: 0.2em;
+			}
+
+			.col_line{
+				list-style-type:none;
+				width: 90%;
+			}
+
+			.col_line li{
+				position: relative;
+				margin: 0.5em;
+				left:-1.8em;
+			}
+
+			.daySign img{
+				position: absolute;
+				left:-1.5em;
+				top: 0.4em;
+			}
+
+			.daySign span{
+				position: relative;
+				left:0.05em;
+			}
+		</style>
+	</head>
+	<body>
+	    <div class="container">
+	        <ul class="row_line">
+	        	<li>
+	        		<img class="startImg" src="./pic/car_side.png">
+	        	</li>
+	            <li class="bodyP">
+	            	<img class="bodyImg" src="./pic/circle_dark.png">预约
+	            </li>
+	            <li class="bodyP">
+	                <img class="bodyImg" src="./pic/circle_light.png">行家确认
+	            </li>
+
+	            <li class="bodyP">
+	            	<img class="bodyImg" src="./pic/circle_light.png">付款
+	            </li>	            
+	            <li class="bodyP">
+	            	<img class="bodyImg" src="./pic/circle_light.png">见面
+	            </li>
+	        </ul>
+	    </div>
+
+	    <div class="col_container">
+	    	<div><span class="daySign">D1</span>出发地 → 西宁<img class="arrow" src="./pic/arrow.png"></div>
+	    	<ul class="col_line D1">
+	    		<li><img src="./pic/car.png" /><span>上海</span></li>
+
+	    		<li><img src="./pic/location1.png" /><span>西宁</span></li>
+
+	    		<li><img src="./pic/hotel.png" /><span>酒店</span></li>
+	    	</ul>
+	    </div>
+	</body>
+</html>
